@@ -73,9 +73,9 @@ public class Seeds {
         GregorianCalendar dateS01E01 = new GregorianCalendar(2018, 7, 12, 16, 35, 00);
         GregorianCalendar dateS01E02 = new GregorianCalendar(2017, 7, 15, 13, 30, 00);
         GregorianCalendar dateS01E03 = new GregorianCalendar(2018, 7, 24, 11, 30, 00);
-        GregorianCalendar dateS01E04 = new GregorianCalendar(2018, 7, 27, 20, 30, 00);
-        GregorianCalendar dateS01E05 = new GregorianCalendar(2018, 7, 29, 9, 45, 00);
-        GregorianCalendar dateS01E06 = new GregorianCalendar(2018, 7, 29, 9, 30, 00);
+        GregorianCalendar dateS01E04 = new GregorianCalendar(2018, 7, 30, 9, 20, 00);
+        GregorianCalendar dateS01E05 = new GregorianCalendar(2018, 7, 30, 9, 45, 00);
+        GregorianCalendar dateS01E06 = new GregorianCalendar(2018, 7, 30, 9, 30, 00);
         GregorianCalendar dateS01E07 = new GregorianCalendar(2014, 7, 16, 16, 30, 00);
         GregorianCalendar dateS01E08 = new GregorianCalendar(2018, 7, 20, 16, 30, 00);
         GregorianCalendar dateS01E09 = new GregorianCalendar(2018, 7, 24, 16, 30, 00);
