@@ -16,7 +16,7 @@ import static spark.Spark.get;
 import static spark.Spark.post;
 import static spark.SparkBase.staticFileLocation;
 
-public class Main {
+public class MainController {
     public static void main(String[] args) {
 
         Seeds.seedData();
@@ -48,6 +48,14 @@ public class Main {
             model.put("template", "templates/main.vtl");
             return new ModelAndView(model, "templates/layout.vtl");
         }, new VelocityTemplateEngine());
+    }
+
+    static int getHerokuAssignedPort() {
+        ProcessBuilder processBuilder = new ProcessBuilder();
+        if (processBuilder.environment().get("PORT") != null) {
+            return Integer.parseInt(processBuilder.environment().get("PORT"));
+        }
+        return 4567;
     }
 }
 
