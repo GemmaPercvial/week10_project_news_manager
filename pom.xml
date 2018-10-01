@@ -12,12 +12,12 @@
             <plugin>
                 <artifactId>maven-assembly-plugin</artifactId>
                 <executions>
-                        <execution>
-                            <phase>package</phase>
-                            <goals>
-                                <goal>single</goal>
-                            </goals>
-                        </execution>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
                 </executions>
                 <configuration>
                     <descriptorRefs>
@@ -56,7 +56,7 @@
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
-                <version>2.0.6</version>
+                <version>2.0.3</version>
                 <configuration>
                     <jdkVersion>1.8</jdkVersion>
                     <appName>week10-project-news-management</appName>
