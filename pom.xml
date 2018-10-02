@@ -55,7 +55,7 @@
                     <jdkVersion>1.8</jdkVersion>
                     <appName>week10-project-news-management</appName>
                     <processTypes>
-                        <web>java -jar ./target/week10-project-news-management-1.0-SNAPSHOT-jar-with-dependencies.jar</web>
+                        <web>java -jar ./target/week10-project-news-management-1.0-SNAPSHOT.jar</web>
                     </processTypes>
                 </configuration>
             </plugin>
